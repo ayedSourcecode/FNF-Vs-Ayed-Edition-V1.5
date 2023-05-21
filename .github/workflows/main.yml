@@ -35,6 +35,10 @@ jobs:
           haxelib install flixel-tools
           haxelib install flixel-ui 2.4.0
           haxelib install flixel-addons 2.11.0
+          haxelib remove flixel-ui
+          haxelib remove flixel-addons
+          haxelib install flixel-ui 2.4.0
+          haxelib install flixel-addons 2.11.0
           haxelib install tjson
           haxelib install hxjsonast
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
@@ -73,6 +77,10 @@ jobs:
           haxelib run lime setup flixel
           haxelib run lime setup
           haxelib install flixel-tools
+          haxelib install flixel-ui 2.4.0
+          haxelib install flixel-addons 2.11.0
+          haxelib remove flixel-ui
+          haxelib remove flixel-addons
           haxelib install flixel-ui 2.4.0
           haxelib install flixel-addons 2.11.0
           haxelib install tjson
@@ -114,6 +122,10 @@ jobs:
           haxelib run lime setup flixel
           haxelib run lime setup
           haxelib install flixel-tools
+          haxelib install flixel-ui 2.4.0
+          haxelib install flixel-addons 2.11.0
+          haxelib remove flixel-ui
+          haxelib remove flixel-addons
           haxelib install flixel-ui 2.4.0
           haxelib install flixel-addons 2.11.0
           haxelib install tjson
@@ -169,6 +181,10 @@ jobs:
           haxelib run lime setup flixel
           haxelib install flixel-tools
           haxelib install flixel-ui 2.4.0
+          haxelib remove flixel-ui
+          haxelib remove flixel-addons
+          haxelib install flixel-ui 2.4.0
+          haxelib install flixel-addons 2.11.0
           haxelib install hscript
           haxelib install flixel-addons 2.11.0
           haxelib git extension-videoview https://github.com/jigsaw-4277821/extension-videoview.git
