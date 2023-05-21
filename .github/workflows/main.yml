@@ -33,7 +33,7 @@ jobs:
           haxelib run lime setup flixel
           haxelib run lime setup
           haxelib install flixel-tools
-          haxelib install flixel-ui
+          haxelib install flixel-ui 2.4.0
           haxelib install flixel-addons 2.11.0
           haxelib install tjson
           haxelib install hxjsonast
@@ -73,7 +73,7 @@ jobs:
           haxelib run lime setup flixel
           haxelib run lime setup
           haxelib install flixel-tools
-          haxelib install flixel-ui
+          haxelib install flixel-ui 2.4.0
           haxelib install flixel-addons 2.11.0
           haxelib install tjson
           haxelib install hxjsonast
@@ -114,7 +114,7 @@ jobs:
           haxelib run lime setup flixel
           haxelib run lime setup
           haxelib install flixel-tools
-          haxelib install flixel-ui
+          haxelib install flixel-ui 2.4.0
           haxelib install flixel-addons 2.11.0
           haxelib install tjson
           haxelib install hxjsonast
@@ -168,7 +168,7 @@ jobs:
           haxelib --never install flixel
           haxelib run lime setup flixel
           haxelib install flixel-tools
-          haxelib install flixel-ui
+          haxelib install flixel-ui 2.4.0
           haxelib install hscript
           haxelib install flixel-addons 2.11.0
           haxelib git extension-videoview https://github.com/jigsaw-4277821/extension-videoview.git
